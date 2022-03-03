@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 150%
+}
+
+h1 {
+  font-size: 4.625rem;
+  margin-top: 50px auto 10px auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFB72B;
+}
+
+h3 {
+  font-size: 85%;
+  color: #FFB72B
+}
+
+p {
+  line-height: 1;
+  color: #9B0000;
+}
+
+hr {
+  border: dotted red;
+  border-bottom: none;
+  width: 1%;
+  margin: 100px auto;
+}
+
+a {
+  color: #9B0000;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+a:hover {
+  color: #9B0000;
+}
+/***************************CLASS*****************************/
+
+.top-container {
+  background-color: yellow;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-section {
+  margin: 100px 0;
+}
+
+.bottom-section {
+  background-color: yellow;
+  padding: 50px 0 20px;
+}
+
+
+.ufo {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+.planet{
+  width: 60%;
+  height: 60%;
+}
+
+.ufo-2 {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 150px;
+  bottom: 700px;
+}
+
+.unpad {
+  font-weight: bold;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.soccer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.basket-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.soccer-title {
+}
+.soccer-description {
+  font-size: 20px;
+  width: 125%;
+}
+.basket-title {
+
+}
+.basket-description {
+  font-size: 20px;
+  width: 125%;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+  background: #e63333;
+  background-image: -webkit-linear-gradient(top, #e63333, #751717);
+  background-image: -moz-linear-gradient(top, #e63333, #751717);
+  background-image: -ms-linear-gradient(top, #e63333, #751717);
+  background-image: -o-linear-gradient(top, #e63333, #751717);
+  background-image: linear-gradient(to bottom, #e63333, #751717);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5dc5d;
+  background-image: -webkit-linear-gradient(top, #f5dc5d, #a39031);
+  background-image: -moz-linear-gradient(top, #f5dc5d, #a39031);
+  background-image: -ms-linear-gradient(top, #f5dc5d, #a39031);
+  background-image: -o-linear-gradient(top, #f5dc5d, #a39031);
+  background-image: linear-gradient(to bottom, #f5dc5d, #a39031);
+  text-decoration: none;
+}
+
+.footer-copyright {
+  font-size: 15px;
+  color: black;
+  padding: 20px 0;
+}
+.footer-link {
+  font-size: 25px;
+  color: black;
+}
+
+.contact-me-sentences {
+  padding-bottom: 60px;
+}
